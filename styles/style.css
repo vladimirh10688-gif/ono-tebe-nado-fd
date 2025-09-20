@@ -290,10 +290,23 @@ outline: none; */
   min-height: 180px;
 }
 
+address {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+}
+
 .nav_list_footer {
   list-style: none;
   text-decoration: none;
   text-align: center;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .ss_img {
