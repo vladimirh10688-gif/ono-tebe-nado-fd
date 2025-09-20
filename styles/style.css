@@ -1,1 +1,330 @@
 /* место для вашего кода */
+
+.body {
+  width: 1100px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items:center;
+
+  /* flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
+  height: 293px;
+}
+
+.nav_list {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+   align-items: center; 
+  gap: 34px;
+  list-style: none;
+  font-size: 18px;
+  height: 293px;
+  /* line-height: 20px; */
+  /* padding-inline:2px; */
+}
+
+.menu_item_active {
+   text-decoration: none;
+}
+
+/* .nav_list1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.address {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+   /* text-align: left;  */
+  font-size: 18px;
+  /* inset-inline-start: 400px; */
+  margin-left: 190px;
+  /* letter-spacing: ; */
+}
+
+.img_logo {
+  /* position: absolute; */
+  width: 129.11px;
+  height: 104.65px;
+  /* top:0;
+  left:0; */
+ 
+}
+.img_logo_2 {
+  /* position: absolute; */
+  width: 240px;
+  height: 240px;
+}
+
+.cover {
+  height: 757px;
+  color: #FFFFFF;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ono {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding-bottom: 50px;
+  height: 50vh; 
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 114.999999999999%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  margin: 0 50px 207px 50px;
+}
+
+.text-left {
+  display: block;
+  /* width: 286px; */
+  height: 115px;
+  margin-bottom: 20px;
+  margin-top: 190px;
+}
+
+.text-center {
+  display: block;
+  text-align:center;
+  height: 115px;
+  padding-left:15px;
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-right {
+  display:block;
+  text-align: right;
+  height: 115px;
+  padding-top: 40px;
+  /* margin-left: 40px; */
+  margin-top: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self:center;
+  /* margin-bottom: 601px; */
+  margin: 106px 50px 0 50px;
+  padding-bottom: 50px;
+  padding-top: 106px;
+}
+
+.title-desc {
+  font-size:22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  align-self:center;
+}
+
+/* button {
+background-color: transparent;
+color: #ffffff;
+   /* border: none; */
+/* background-color: rgba(255, 255, 255, 0); 
+border: none; 
+outline: none; */
+
+
+.header_lot {
+  margin-bottom: 27px;
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: bold;}
+
+.about_auction_1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: bold;
+  margin-bottom: 100px;
+  margin-right: 397px;
+  text-transform: uppercase;
+}
+
+.paragraf_about {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-inline: 1px;
+}
+
+.lots {
+  margin-top:180px;
+}
+
+.list_lots {
+  display: grid;
+  margin:0 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  height: 596px;
+  
+}
+
+.l_lot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.color_w {
+  color: #FFFFFF;
+}
+
+.font_title {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin:48px 40px;
+}
+
+.font_content {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  margin:48px 40px;
+}
+
+.lot-img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/card-lot-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lot-img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/card-lot-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lot-img-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/card-lot-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.view_more {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.about_section {
+  margin-top:120px;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.about {
+  display: block;
+  width:693px;
+  margin-bottom: 120px;
+  margin-left: 383px;
+  margin-right: 24px;
+  flex-wrap: wrap;
+  /* align-self: self-end; */
+  text-align:left;
+}
+
+.logo {
+  display: block;
+  position:relative;
+  background-image: url('../images/Ellipse_10.png'); 
+  width: 240px;
+  height: 240px;
+  margin: 35px 0 0 47px;
+}
+
+.img_logo1 {
+  /*
+  left: 50px; 
+  transform: translateX(+50%);
+  transform: translateY(+70%);
+  background-position-x: right; */
+  position: absolute;
+  top: 70px;
+  left: 45px;
+  width: 148px;
+  height: 114px;
+}
+
+/* .img_logo2 {
+  display: relative;
+  top: 30px;
+  left: 30px;
+} */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+.nav_list_footer {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.ss_img {
+list-style: none;
+width: 48px;
+height: 48px;}
+
+.social_net {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.button {
+  /* background-color: #4CAF50; Green */
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-style: Raleway;
+  font-weight: 500;
+  /* opacity: 0.3; */
+  border: 1px;
+  border-style:solid;
+  background-color: transparent;
+  width: 256px;
+  height: 51px;
+  /* margin-right: 50px;
+  margin-bottom: 50px; */
+}
