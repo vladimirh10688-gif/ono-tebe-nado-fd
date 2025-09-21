@@ -83,17 +83,17 @@
 .text-left {
   display: block;
    margin-top: 165px;
-  line-height: 115px;
   margin-bottom: 20px;
+  line-height: 115px;
 }
 
 .text-center {
   display: block;
+  margin-bottom: 20px;
   font-family: Raleway,sans-serif;
   font-weight: 700;
   font-size: 100px;
   line-height: 115px;
-  margin-bottom: 20px;
   text-align:center;
 }
 
@@ -235,9 +235,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 72px;
   margin-top:120px;
   margin-right: 24px;
-  gap: 72px;
 }
 
 .about {
@@ -257,8 +257,8 @@
   width: 240px;
   height: 240px;
   margin: 35px 0 0 71px;
-  background-color: black;
   border-radius: 50%;
+  background-color: black;
   background-position: top;
 }
 
@@ -275,8 +275,8 @@
   flex-direction: row;
   justify-content: space-between;
   min-height: 180px;
-  margin-left: 50px;
   margin-right: 50px;
+  margin-left: 50px;
 }
 
 .nav_list_footer {
