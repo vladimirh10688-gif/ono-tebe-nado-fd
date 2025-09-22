@@ -77,12 +77,13 @@
   font-weight: 700;
   font-size: 50px;
   letter-spacing: 20px;
+  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .text-left {
   display: block;
-   margin-top: 165px;
+  margin-top: 165px;
   margin-bottom: 20px;
   line-height: 115px;
 }
@@ -90,6 +91,7 @@
 .text-center {
   display: block;
   margin-bottom: 20px;
+  margin-left: 30px;
   font-family: Raleway,sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -99,6 +101,7 @@
 
 .text-right {
   display:block;
+  margin-left: 615px;
   font-family: Raleway,sans-serif;
   font-weight: 700;
   font-size: 100px;
@@ -124,7 +127,7 @@
 
 .header_lot {
   margin-bottom: 27px;
-  margin-left: 40px;
+  margin-left: 64px;
   font-weight: bold;
   font-size: 40px;}
 
@@ -183,16 +186,18 @@
 }
 
 .font_title {
-  margin:48px 40px;
+  margin:55px 40px 0px 40px;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 120%;
   text-transform: uppercase;
+  /* letter-spacing: 5px; */
 }
 
 .font_content {
-  margin:48px 40px;
+  margin:10px 40px 40px 40px;
+  padding-top: 10px;
   font-family: Raleway,sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -224,7 +229,7 @@
 .view_more {
   display: inline-block;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 64px;
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
@@ -252,8 +257,9 @@
 }
 
 .logo {
-  position:relative;
-  display: block; 
+  display: flex; 
+  justify-content: center;
+  align-items:center;
   width: 240px;
   height: 240px;
   margin: 35px 0 0 71px;
@@ -264,8 +270,6 @@
 
 .img_logo_white {
   position: relative;
-  top: 70px;
-  left: 43px;
   width: 148px;
   height: 114px;
 }
@@ -312,6 +316,7 @@
   font-size: 22px;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
   background-color: transparent;
   cursor:pointer;
 }
